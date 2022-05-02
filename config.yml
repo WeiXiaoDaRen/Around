@@ -1,0 +1,71 @@
+
+#店铺Gui
+Player_stor_Title : "&7你的 - &e&l逛逛店铺"
+
+#商城Gui
+Player_shop_Title : "&e&l逛逛商城 &7&l| &b&l8 &d&l1 &a&l6 &2&l购物节 ~"
+
+#进入他人的店铺Gui
+Goin_To_player_shop : "&d&l第三方逛逛店铺"
+
+#成交一次 收获多少经验?
+Shop_lecel : 3
+
+#店铺名称长度限制
+Shop_name_length : 8
+
+#店铺格言长度限制
+Shop_lore_length : 10
+
+#失信玩家处理聊天前缀
+#当此玩家有未缴纳的罚金时,说话将会有失信玩家提示 (禁用请留空)
+Promise : "&c此玩家为失信被执行人"
+
+#操作GUI的冷却时间 (单位毫秒)
+# Ps: 1000毫秒 为 1秒
+Operation_delay : 3000
+
+#修改店铺名所花费金额
+New_shop_name_money : 3000
+
+#店铺升级需要的经验
+#税收不能乱改 ， 避免小数
+#等级数量9个 不可以多 或 少
+levels:
+  -
+    Number : 0 #第一级的所需经验请写 0
+    Name : "&7全新开业" #对应名字
+    Tax : 97  #税收 不可高于100 为 100就是免税   所得/100*税收 = 真实所得
+    #注意 低于100元的交易不收税
+  -
+    Number : 30
+    Name : "&7&l一切稳定"
+    Tax : 95
+  -
+    Number : 80
+    Name : "&a小有名气"
+    Tax : 93
+  -
+    Number : 150
+    Name : "&a&l津津乐道"
+    Tax : 91
+  -
+    Number : 300
+    Name : "&b崭露头角"
+    Tax : 90
+  -
+    Number : 500
+    Name : "&b&l远近闻名"
+    Tax : 89
+  -
+    Number : 900
+    Name : "&d网红店铺"
+    Tax : 86
+  -
+    Number : 1500
+    Name : "&c百年老店"
+    Tax : 85
+  -
+    Number : 3600
+    Name : "&e经营典范"
+    Tax : 80

@@ -1,0 +1,22 @@
+  name: Around
+  main: com.king.AroundMain
+  version: 0.1
+  api-version: 1.13
+
+  softdepend:
+    - Vault
+
+  commands:
+    around:
+      description: This is a demo command.
+      usage: /around
+      permission: around.user
+      permission-message: You need to <permission>
+
+  permissions:
+    around.user:
+      description: player
+      default: true
+    around.set:
+      description: ServerAdmin
+      default: op

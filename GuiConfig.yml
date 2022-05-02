@@ -1,0 +1,75 @@
+#这里的颜色字符请将 & 替换为 §
+#因为这里没有做字符串转换 而是 直接对接创建物品
+#虽然对于各位腐竹而言麻烦了,但并不是经常需要改
+#而程序 却是 经常需要读取
+#所以虽然 稍微幸苦一下我们 但是可以 提高插件运行效率
+
+#店铺信息之类的格子,是即时创建的,所以只支持修改材质。
+DPXX_TYPE: "BOOK"
+
+TYZS_lattice:
+  Name : "  "
+  Type : "WHITE_STAINED_GLASS_PANE"
+  Lore :
+    - "  "
+    -
+XJSP_lattice:
+  Name : "§c下架物品 "
+  Type : "IRON_AXE"
+  Lore :
+    - ""
+    - " §7看来此物对你的价值大于将其卖出。"
+    - ""
+    - "§7注意:"
+    - " §c请先点击你想要下架的物品,在下方."
+    - ""
+
+SJSP_lattice:
+  Name : "§b上架物品 "
+  Type : "DIAMOND"
+  Lore :
+    - ""
+    - " §7大家都说:"
+    - "  §7会做生意的人,往往能给出一个让人眼前一亮的价格。"
+    - ""
+    - "§7                               --- BIDE"
+    - ""
+
+DPGY_lattice:
+  Name : "§e修改店铺名称 (3000R) "
+  Type : "NAME_TAG"
+  Lore :
+    - ""
+    - "§7顾客对店铺的印象,往往从第一眼开始。"
+    - ""
+
+FYGZ_lattice:
+  Name : "§c升级后解锁 "
+  Type : "BARRIER"
+  Lore :
+    - ""
+
+SPGM_lattice:
+  Name : "§b购买此物 "
+  Type : "DIAMOND"
+  Lore :
+    - ""
+    - "§7确保你的余额足够哦~"
+    - ""
+
+SXWP_lattice:
+  Name : "§7刷新物品 "
+  Type : "STRING"
+  Lore :
+    - ""
+    - "§7没有你想要的? 再换一批!"
+    - "§7在商家少的情况下效果不明显"
+    - ""
+
+DPDZ_lattice:
+  Name : "§c§l赞一个~ "
+  Type : "APPLE"
+  Lore :
+    - ""
+    - "§7真的有那么棒吗!"
+    - ""

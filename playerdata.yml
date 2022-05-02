@@ -1,0 +1,12 @@
+Shop_name: ''
+Shop_lore: ''
+Normal: true
+Penalty: 0
+Levels: 0
+Shop_Sell: 0
+Grade : 1
+Warehouse: '暂无'
+Player_Thumbs_up:
+  - BIDE
+Shop_items:
+  - 暂无
